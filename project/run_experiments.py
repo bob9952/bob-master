@@ -4,7 +4,7 @@ import time
 import pandas as pd
 from src.parser import parse_instance_file
 from src.ga import GeneticAlgorithm
-from src.heuristic import first_fit, next_fit, best_fit, max_rest
+from src.heuristic import first_fit, next_fit, best_fit, max_rest, max_rest_pq
 from src.solution_manager import SolutionManager
 
 # Settings
@@ -104,7 +104,7 @@ def main():
     # Open TXT file for writing detailed report
     with open(output_txt, 'w') as txtfile:
         # CONSOLE HEADER (Clean, single line)
-        header = f"{'Cat':<8} | {'Instance':<30} | {'Itm':<5} {'Cap':<8} | {'Opt':<4} | {'FF':<5} {'tFF':<8} | {'FFD':<5} {'tFFD':<8} | {'BF':<5} {'tBF':<8} | {'BFD':<5} {'tBFD':<8} | {'NF':<5} {'tNF':<8} | {'NFD':<5} {'tNFD':<8} | {'MR':<5} {'tMR':<8} | {'MRD':<5} {'tMRD':<8} | {'GA':<5} {'tGA':<8} | {'Gap':<4}"
+        header = f"{'Cat':<8} | {'Instance':<30} | {'Itm':<5} {'Cap':<8} | {'Opt':<4} | {'FF':<5} {'tFF':<8} | {'FFD':<5} {'tFFD':<8} | {'BF':<5} {'tBF':<8} | {'BFD':<5} {'tBFD':<8} | {'NF':<5} {'tNF':<8} | {'NFD':<5} {'tNFD':<8} | {'MR':<5} {'tMR':<8} | {'MRD':<5} {'tMRD':<8} | {'MR+':<5} {'tMR+':<8} | {'MRD+':<5} {'tMRD+':<8} | {'GA':<5} {'tGA':<8} | {'Gap':<4}"
         print("-" * len(header))
         print(header)
         print("-" * len(header))
@@ -144,6 +144,9 @@ def main():
             
             mr, t_mr = solve_heuristic(items, capacity, max_rest, False)
             mrd, t_mrd = solve_heuristic(items, capacity, max_rest, True)
+
+            mrpq, t_mrpq = solve_heuristic(items, capacity, max_rest_pq, False)
+            mrdpq, t_mrdpq = solve_heuristic(items, capacity, max_rest_pq, True)
             
             # --- RUN GA ---
             start_ga = time.time()
@@ -171,6 +174,8 @@ def main():
                 "NFD": nfd, "NFD_Time": t_nfd,
                 "MR": mr, "MR_Time": t_mr,
                 "MRD": mrd, "MRD_Time": t_mrd,
+                "MR+": mrpq, "MR+_Time": t_mrpq,
+                "MRD+": mrdpq, "MRD+_Time": t_mrdpq,
                 "GA": ga_res, "GA_Time": ga_time,
                 "Gap_GA": gap_ga
             }
@@ -183,16 +188,18 @@ def main():
             # Safe opt string
             opt_str = str(optimal) if optimal is not None else "-"
             
-            print(f"{category:<8} | {name:<30} | {num_items:<5} {capacity:<8g} | {opt_str:<4} | {p(ff, t_ff)} | {p(ffd, t_ffd)} | {p(bf, t_bf)} | {p(bfd, t_bfd)} | {p(nf, t_nf)} | {p(nfd, t_nfd)} | {p(mr, t_mr)} | {p(mrd, t_mrd)} | {ga_res:<5} {ga_time:<8.2f} | {gap_ga:<4}")
+            print(f"{category:<8} | {name:<30} | {num_items:<5} {capacity:<8g} | {opt_str:<4} | {p(ff, t_ff)} | {p(ffd, t_ffd)} | {p(bf, t_bf)} | {p(bfd, t_bfd)} | {p(nf, t_nf)} | {p(nfd, t_nfd)} | {p(mr, t_mr)} | {p(mrd, t_mrd)} | {p(mrpq, t_mrpq)} | {p(mrdpq, t_mrdpq)} | {ga_res:<5} {ga_time:<8.2f} | {gap_ga:<4}")
             
             # Write to TXT (Detailed)
             line1 = f"{category:<8} | {name[:23]:<25} | {opt_str:<4} | {ga_res:<4} {gap_ga:<4} | {ga_time:.2f}s"
             line2 = f"   FF:{ff}({t_ff:.4f}) FFD:{ffd}({t_ffd:.4f}) BF:{bf}({t_bf:.4f}) BFD:{bfd}({t_bfd:.4f})"
             line3 = f"   NF:{nf}({t_nf:.4f}) NFD:{nfd}({t_nfd:.4f}) MR:{mr}({t_mr:.4f}) MRD:{mrd}({t_mrd:.4f})"
+            line4 = f"   MR+:{mrpq}({t_mrpq:.4f}) MRD+:{mrdpq}({t_mrdpq:.4f})"
             
             txtfile.write(line1 + "\n")
             txtfile.write(line2 + "\n")
             txtfile.write(line3 + "\n")
+            txtfile.write(line4 + "\n")
             txtfile.write("-" * 80 + "\n")
             txtfile.flush()
 

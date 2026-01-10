@@ -1,3 +1,5 @@
+import heapq
+
 def first_fit(item_order, items_dict, bin_capacity):
     """
     Applies the First Fit heuristic to pack items in the given order.
@@ -113,5 +115,47 @@ def max_rest(item_order, items_dict, bin_capacity):
             bins[best_bin_idx]['items'].append((item_id, item_size))
         else:
             bins.append({'used': item_size, 'items': [(item_id, item_size)]})
+            
+    return bins
+
+def max_rest_pq(item_order, items_dict, bin_capacity):
+    """
+    Applies Max-Rest using a Priority Queue (Heap).
+    Faster implementation O(N log N) vs O(N^2).
+    """
+    bins = []
+    # Heap stores (-remaining_capacity, bin_index)
+    # Python heapq is min-heap, so we use negative to get max-heap behavior
+    pq = []
+    EPSILON = 1e-6
+    
+    for item_id in item_order:
+        item_size = items_dict[item_id]
+        placed = False
+        
+        if pq:
+            # Check the bin with MAXIMUM remaining capacity (top of heap)
+            neg_rem, idx = pq[0]
+            remaining = -neg_rem
+            
+            if remaining >= item_size - EPSILON:
+                # It fits! Remove from heap, update, and push back
+                heapq.heappop(pq)
+                
+                bins[idx]['used'] += item_size
+                bins[idx]['items'].append((item_id, item_size))
+                
+                new_rem = remaining - item_size
+                heapq.heappush(pq, (-new_rem, idx))
+                placed = True
+        
+        if not placed:
+            # Create new bin
+            new_bin = {'used': item_size, 'items': [(item_id, item_size)]}
+            bins.append(new_bin)
+            
+            new_idx = len(bins) - 1
+            rem = bin_capacity - item_size
+            heapq.heappush(pq, (-rem, new_idx))
             
     return bins
