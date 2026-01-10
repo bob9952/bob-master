@@ -1,0 +1,207 @@
+Poštovani profesore,
+
+Nadam se da ste dobro. Obracam Vam se jer bih želeo da Vas pitam da li biste bili voljni da budete moj mentor za master rad.
+
+Zanima me rad na temi iz oblasti optimizacije, a posebno bih voleo da se bavim NP-teškim problemima. Razmišljao sam o nekoj varijanti problema trgovca putnika (TSP) ili možda nečemu vezanom za logistiku, gde bih primenio različite optimizacione tehnike i heuristike.
+
+Ako imate neku temu koju biste mogli da predložite, bio bih Vam veoma zahvalan.
+
+Unapred hvala na vremenu i pažnji, radujem se Vašem odgovoru.
+
+Srdačno,
+[Vaše ime i prezime]
+
+
+Poštovani profesore,
+
+Nadam se da ste dobro. Obraćam Vam se jer bih želeo da Vas pitam da li bi ste bili voljni da budete moj mentor za master rad.
+
+Zanima me rad na temi iz oblasti optimizacije, to bi mogao biti neki NP-težak problem, koji bih predstavio, i uz više različitih optimizacija rešio, uporedio bih rezultate i prezentovao. 
+
+Ja sam malo istraživao i pronašao sam problem pakovanja u prostoru, koji je NP-težak. 
+
+Ako imate neku temu koju biste mogli da predložite na ovaj problem, bio bih Vam veoma zahvalan. Svakako i drugi problemi dolaze u obzir.
+
+Srdačan pozdrav,
+
+Nikola Subotić 1029 / 2023 
+
+
+Nesto mi se i ne svidja ovaj mejl mnogo... nekako je pih..
+
+Email 
+
+
+Master rad – pitanje u vezi mentorstva i predlog teme
+
+
+Poštovani profesore,
+
+Interesuje me oblast optimizacije. 
+
+Obraćam Vam se jer želim da Vas pitam da li bi ste bili moj mentor za master rad.
+
+Moja ideja je da tema bude vezana za neki NP-težak problem. Problem bih predstavio i uz više različitih optimizacija rešio, uporedio bih rezultate i prezentovao ih.
+
+Istražujući, naišao sam na problem pakovanja u prostoru, koji je NP-težak, i mislim da bi mogao biti deo/tema mog rada.
+
+Svakako me i drugi izazovni problemi iz oblasti optimizacije zanimaju i radio bih na nekom od njih, ukoliko smatrate da je pogodniji za master rad.
+
+Rado bih čuo i Vaše predloge, ukoliko imate neku temu koju biste preporučili za master rad.
+
+Unapred hvala na izdvojenom vremenu.
+
+Srdačan pozdrav,
+Nikola Subotić
+1029 / 2023
+
+
+Email: miroslav.maric@matf.bg.ac.rs
+
+
+
+
+
+Poštovani profesore,
+
+Interesuje me oblast optimizacije. 
+
+Obraćam Vam se jer želim da Vas pitam da li bi ste bili moj mentor za master rad.
+
+Ideja mi je da jedan takav problem obradim kroz više različitih optimizacionih pristupa, uporedim rezultate i predstavim ih kroz rad.
+
+Istražujući, naišao sam na problem pakovanja u prostoru, koji spada u NP-teške, i mislim da bi mogao biti zanimljiva tema.
+
+Naravno, otvoren sam i za druge izazovne probleme iz oblasti optimizacije, pa bih rado čuo i Vaše predloge, ukoliko imate neku ideju koju biste preporučili za master rad.
+
+Unapred hvala na izdvojenom vremenu.
+
+
+Srdačan pozdrav,
+Nikola Subotić
+1029 / 2023
+
+
+
+
+--- drugi mejl, koje pdfove poslati ? 
+
+
+2 Literature review
+BPP belongs to NP-hard problems [12] so that using exact
+methods (e.g., branch and bound algorithm [13] and
+branch and price algorithm [14]) or basic heuristic algorithms may become deficient for handling large BPPs.
+Initially, many heuristics were proposed for solving BPP
+as next fit [15], first fit [15], worst fit [16], best fit [17],
+graph-based algorithm [18], etc. Indeed, heuristic algorithms can guarantee a good solution for small-scale instances and they can be defined as Ba type of strategy that
+dramatically limits the search for solutions^ [19, 20].
+Thus, the new trends are directed towards using metaheuristic algorithms which are not problem-specific heuristic that can find a high-quality solution through the
+tradeoff between the exploitation and exploration of
+search space [21, 22]. For example, the authors in [23,
+24] solved BPP with genetic algorithm (GA) [25] which
+was combined with grouping mechanism for handling the
+problem. In [26], Layeb and Boussalia combined cuckoo
+search (CS) [27] algorithm with a binary quantum technique for solving BPP. Also, the authors in [28] applied
+
+CS for solving the problem but they used FF and ranked
+order value (ROV) [29] for adapting the algorithm. In
+[30], Levine and Ducatelle proposed ant system (AS) algorithm [31] with local search technique for solving the
+problem. While in [32], the authors hybridized the previous technique with firefly algorithm (FA) [33]. Sonuc
+et al. [34] solved BPP with simulated annealing (SA)
+[35] which combined with a swap function for enhancing
+the solution.
+Roughly speaking, the main challenge of bin packing
+problem is obtaining a good solution but with less time.
+In continuous search space, WOA can obtain a highquality solution in negligible time. Thereby, this paper
+employs the improved WOA capabilities to solve BPP
+with more convergence speed.
+
+12. Anily S, Bramel J, Simchi-Levi D (1994) Worst-case analysis of
+heuristics for the bin packing problem with general cost structures.
+Oper Res 42(2):287–298
+
+13. Eilon S, Christofides N (1971) The loading problem. Manag Sci
+17(5):259–268
+14. Peeters M, Degraeve Z (2006) Branch-and-price algorithms for the
+dual bin packing and maximum cardinality bin packing problem.
+Eur J Oper Res 170(2):416–439
+15. Johnson DS, Demers A, Ullman JD, Garey MR, Graham RL (1974)
+Worst-case performance bounds for simple one-dimensional packing algorithms. SIAM J Comput 3(4):299–325
+16. Coffman EG, Galambos G, Martello S, Vigo D (1999) Bin packing
+approximation algorithms: combinatorial analysis. In Handbook of
+combinatorial optimization (pp. 151–207). Springer US
+17. Rhee WT, Talagrand M (1993) On line bin packing with items of
+random size. Math Oper Res 18(2):438–445
+18. Sensarma D, Sarma SS (2014) A novel graph based algorithm for
+one dimensional bin packing problem. J Glob Res Comput Sci 5(8):
+1–4
+19. Feigenbaum EA, Feldman J (1995) Computers and thought. MIT
+Press, Menlo Park
+20. Romanycia MH, Pelletier FJ (1985) What is a heuristic? Comput
+Intell 1(1):47–58
+21. Glover F (1986) Future paths for integer programming and links to
+artificial intelligence. Comput Oper Res 13(5):533–549
+22. Blum C, Roli A (2003) Metaheuristics in combinatorial optimization: overview and conceptual comparison. ACM Comput Surv
+(CSUR) 35(3):268–308
+23. Falkenauer E, Delchambre A (1992) A genetic algorithm for bin
+packing and line balancing. In Robotics and Automation, 1992.
+Proceedings., 1992 I.E. International Conference on (pp. 1186–
+1192). IEEE
+24. Falkenauer E (1996) A hybrid grouping genetic algorithm for bin
+packing. J Heuristics 2(1):5–30
+25. Sampson JR (1976) Adaptation in natural and artificial systems
+(John H. Holland). SIAM Rev 18(3):529–530
+26. Layeb A, Boussalia SR (2012) A novel quantum inspired cuckoo
+search algorithm for bin packing problem. Int J Inf Technol Comput
+Sci (IJITCS) 4(5):58–67
+27. Yang XS, Deb S (2009) Cuckoo search via Lévy flights. In Nature
+&Biologically Inspired Computing, 2009. NaBIC 2009. World
+Congress on (pp. 210–214). IEEE
+28. Zendaoui Z, Layeb A (2016) Adaptive cuckoo search algorithm for
+the bin packing problem. Modelling and Implementation of
+Complex Systems Lecture Notes in Networks and Systems, 107–
+120
+29. Liu B, Wang L, Qian B, Jin Y (2008) Hybrid particle swarm optimization for stochastic flow shop scheduling with no-wait constraint, IFAC Proceedings Volumes 41(2). 15855–15860
+30. Levine J, Ducatelle F (2004) Ant colony optimization and local
+search for bin packing and cutting stock problems. J Oper Res
+Soc 55(7):705–716
+31. Dorigo M, Maniezzo V, Colorni A (1996) Ant system: optimization
+by a colony of cooperating agents. IEEE Trans Syst Man Cybern
+Part B (Cybernetics) 26(1):29–41
+32. Layeb A, Benayad Z (2014) A novel firefly algorithm based ant
+colony optimization for solving combinatorial optimization problems. Int J Comput Sci Appl 11(2):19–37
+33. Yang XS (2010) Firefly algorithm, levy flights and global optimization. In Research and development in intelligent systems XXVI
+(pp. 209–218). Springer London
+34. Sonuc E, Sen B, Bayir S (2017) Solving bin packing problem using
+simulated annealing. Proceedings of 65th ISERD international conference, Mecca, Saudi Arabia
+35. Kirkpatrick S, Gelatt CD, Vecchi MP (1983) Optimization by simulated annealing. Science 220(4598):671–680
+36. Martello S, Toth P (1990) Knapsack problems: algorithms and computer implementations. John Wiley & Sons, Inc
+
+
+
+One Dimensional BinPacking Problems with Branch and Bound Algorithm.pdf
+
+Bin packing - one-dimensional, podaci
+https://people.brunel.ac.uk/~mastjjb/jeb/orlib/binpackinfo.html 
+
+
+Jedan od radova koji moze da se iskoristi mozda?  
+
+
+
+
+Poštovani profesore,
+
+Zahvaljujem Vam na odgovoru i radujem se budućoj saradnji na master radu.
+
+Istražujući NP-teške probleme iz oblasti optimizacije, naišao sam na 2D problem pakovanja pravougaonika – Minimizing the Packing Area, koji mi deluje interesantno i primenljivo. Planiram da ovaj problem rešim korišćenjem genetskog algoritma GA1 prikazanog u radu "On Solving Rectangle Bin Packing Problems using Genetic Algorithms", koji direktno optimizuje raspored pravougaonika sa ciljem minimizacije ukupne površine pakovanja.
+
+Ukoliko smatrate da to nije dovoljno obimno za master rad, dodatno bih obradio i problem RBPS: Minimizing the Number of Bins Used, gde bih implementirao algoritme GA3 i GA4, koji se oslanjaju na postojeće heuristike (poput Hybrid First Fit) i koriste genetski algoritam za poboljšanje redosleda elemenata koje heuristika pakuje. Ovi pristupi deluju kao poboljšanja, čime se ne menja sama logika pakovanja već se optimizuje ulaz koji heuristika koristi, što je jednostavan, ali efektivan način za unapređenje performansi.
+
+Alternativno, spreman sam da radim i 1D Bin Packing problem, gde bih implementirao i uporedio više metaheuristika (npr. iz priloženog dokumenta Note_BP), a dodatno bih uključio i implementaciju genetskog algoritma radi poređenja sa postojećim pristupima. Ova varijanta bi bila nešto jednostavnija za implementaciju i sistematsku analizu.
+
+U prilogu Vam šaljem PDF-ove koje sam koristio kao osnovu. Bio bih Vam zahvalan na mišljenju o predlogu i eventualnom usmeravanju – da li neka od ovih ideja odgovara obimu i ciljevima master rada, i da li bismo mogli da definišemo temu?
+
+Srdačno,
+Nikola Subotić
+1029/2023
