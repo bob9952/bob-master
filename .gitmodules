@@ -1,0 +1,18 @@
+[submodule "BPPLIB"]
+	path = BPPLIB
+	url = git@github.com:mdelorme2/BPPLIB.git
+[submodule "Metaheuristic-Algorithms"]
+	path = Metaheuristic-Algorithms
+	url = git@github.com:itsatefe/Metaheuristic-Algorithms.git
+[submodule "1Dbin"]
+	path = 1Dbin
+	url = git@github.com:richardf/1Dbin.git
+[submodule "bin-packing"]
+	path = bin-packing
+	url = git@github.com:Pseudomanifold/bin-packing.git
+[submodule "bin-packing-heuristics"]
+	path = bin-packing-heuristics
+	url = git@github.com:Pseudomanifold/bin-packing-heuristics.git
+[submodule "binpacking-genetic-algorithm"]
+	path = binpacking-genetic-algorithm
+	url = git@github.com:neatniets/binpacking-genetic-algorithm.git
