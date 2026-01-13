@@ -1,4 +1,7 @@
 import random
+import matplotlib.pyplot as plt
+import math
+import os
 from src.heuristic import first_fit
 
 class Chromosome:
@@ -52,4 +55,62 @@ class Chromosome:
     @property
     def num_bins(self):
         return len(self.bins)
+
+    def visualize_bins(self, instance_name, folder_path="project/results/plots/bins"):
+        """
+        Visualizes the bins and items for this chromosome.
+        Saves the plot to folder_path/instance_name.png
+        """
+        if not os.path.exists(folder_path):
+            os.makedirs(folder_path)
+
+        bins_per_row = 6
+        num_bins = len(self.bins)
+        num_rows = math.ceil(num_bins / bins_per_row)
+        
+        # Use a colormap
+        color_map = plt.get_cmap('tab20')
+
+        # Limit figure size for very large instances
+        fig_width = 15
+        fig_height = max(2, num_rows) * 2
+        
+        plt.figure(figsize=(fig_width, fig_height))
+
+        for i, bin_data in enumerate(self.bins):
+            # Bin data structure from heuristic: {'used': float, 'items': [item_id, ...]}
+            # But wait, heuristic.py first_fit returns: [{'used': size, 'items': [id1, id2]}, ...]
+            
+            plt.subplot(num_rows, bins_per_row, i + 1)
+            y_offset = 0
+            
+            items = bin_data['items']
+            
+            # If items are just IDs, we need to look up sizes.
+            # But wait, does first_fit return just IDs or (id, size)?
+            # Let's check heuristic.py
+            
+            for item_index, (item_id, item_size) in enumerate(items):
+                color = color_map(item_index % 20)
+
+                plt.bar([0.5], [item_size], bottom=[y_offset], width=0.9, edgecolor='black', color=color)
+
+                text_pos_y = y_offset + item_size / 2
+                text = f"id: {item_id}\n{item_size}"
+                
+                # Only show text if item is large enough
+                if item_size > self.bin_size * 0.05:
+                    plt.text(0.5, text_pos_y, text, ha='center', va='center', fontsize=8, color='white')
+
+                y_offset += item_size
+
+            plt.ylim(0, self.bin_size)
+            plt.title(f"Bin {i} ({bin_data['used']})")
+            plt.xticks([])
+            plt.yticks([])
+
+        plt.tight_layout()
+        save_path = os.path.join(folder_path, f"{instance_name}.png")
+        plt.savefig(save_path)
+        plt.close()
 

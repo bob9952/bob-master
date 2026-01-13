@@ -24,7 +24,7 @@ def generate_plots():
     # Note: Some heuristics might not have gaps calculated in CSV, so we compute them now
     # We assume 'Optimal' column exists.
     
-    heuristics = ['FF', 'FFD', 'BF', 'BFD', 'NF', 'NFD', 'MR', 'MRD', 'MR+', 'MRD+', 'GA']
+    heuristics = ['FF', 'FFD', 'FFD+', 'FFL', 'BF', 'BFD', 'BFL', 'NF', 'NFD', 'NFD+', 'MR', 'MRD', 'MR+', 'MRD+', 'GA']
     
     # Compute Gaps
     for h in heuristics:
