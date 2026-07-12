@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "zotero": {
+      "command": "C:\\Users\\thegr\\.local\\bin\\zotero-mcp.exe",
+      "args": ["serve"]
+    }
+  }
+}

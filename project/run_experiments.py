@@ -12,9 +12,17 @@ from src.heuristic import (
 from src.solution_manager import SolutionManager
 
 # Settings
-SAMPLES_PER_FOLDER = 10  # Sample size
-POP_SIZE = 40            # Reduced for faster testing
-GENERATIONS = 50         # Reduced for faster testing
+SAMPLES_PER_FOLDER = 10  # Sample size (unchanged from smoke-test default)
+# POP_SIZE / GENERATIONS: set to 40/50 after a 30-instance two-config comparison
+# (see scratchpad config_compare.log, 2026-07-09). The GA seeds its initial
+# population with FF/FFD/BFD heuristic solutions (see GeneticAlgorithm.
+# initialize_population in src/ga.py), and that SEEDING -- not pop/gen size -- is
+# what delivers the quality. The comparison showed 60/80 vs 40/50 differed on only
+# 5/30 instances (60/80 better on 4, WORSE on 1) for a net 4 bins out of 2394
+# (0.17%), while costing 2.46x the wall-clock (303s vs 123s) -- not worth it.
+# In BOTH configs the seeded GA never lost to plain First-Fit across all 30 instances.
+POP_SIZE = 40
+GENERATIONS = 50
 RUNS_PER_INSTANCE = 1
 
 def solve_heuristic(items_dict, bin_capacity, func, sort_descending=False, use_counting_sort=False):

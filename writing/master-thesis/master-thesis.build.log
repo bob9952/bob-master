@@ -1,0 +1,654 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(master-thesis.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-06-18>
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memoir.cls
+Document Class: memoir 2025/11/04 v3.8.4b configurable book, report, article do
+cument class
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/memoir\mem12.clo)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\delarray.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+)))) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/base\shortvrb.sty))
+(matfmaster.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+*************************************
+* Local config file bblopts.cfg used
+*
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
+-english.tex)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/sr\babel
+-serbian.tex)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/invalid\
+babel-serbianc.tex)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df)
+
+Package babel Warning: The name 'serbian' with the 'ldf' mechanism is
+(babel)                currently assigned to the Latin script. For
+(babel)                the Cyrillic script, use the name 'serbianc'.
+(babel)                Reported on input line 4380.
+
+
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/babel-serbian\serbian.l
+df) (serbianc.ldf))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2aenc.def
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/base\t2aenc.dfu))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+)))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def))
+ (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(hyperref.cfg)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty)))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty)))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memhfixc.sty)
+
+******************************************************
+Stock height and width: 296.9965mm by 209.99753mm
+Top and edge trims: 0mm and 0mm
+Page height and width: 296.9965mm by 209.99753mm
+Text height and width: 223.35008mm by 149.72012mm
+Spine and edge margins: 29.99963mm and 29.99963mm
+Upper and lower margins: 40.19185mm and 33.45456mm
+Headheight and headsep: 5.60574mm and 5.0961mm
+Footskip: 10.19221mm
+Columnsep and columnseprule: 3.51456mm and 0mm
+Marginparsep and marginparwidth: 2.46019mm and 25.07925mm
+Sidecapsep and sidecapwidth: 2.46019mm and 17.57278mm
+Sidebarhsep and sidebarwidth: 2.46019mm and 17.57278mm
+Sidebarvsep and sidebartopsep: 5.0961mm and 0mm
+Sidebarheight: 192.12323mm
+Sidefoothsep and sidefootwidth: 2.46019mm and 17.57278mm
+Sidefootvsep and sidefootheight: 5.0961mm and 192.12323mm
+******************************************************
+
+) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/cmsrb\cmsrb.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/cmsrb\t2acmsrbr.fd)
+(master-thesis.aux)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty)))
+(master-thesis.out) (master-thesis.out)
+
+LaTeX Font Warning: Font shape `T2A/fos/m/n' undefined
+(Font)              using `T2A/cmr/m/n' instead on input line 52.
+
+
+LaTeX Font Warning: Font shape `T2A/fos/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `T2A/fos/m/n' in size <22> not available
+(Font)              size <20.74> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `T2A/fos/b/n' undefined
+(Font)              using `T2A/fos/m/n' instead on input line 52.
+
+[1{C:/Users/thegr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{G:/Users/th
+egr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t2a.enc} <.
+/matf.png>] [2{G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cms
+rb/cmsrbt2a.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+
+[3] (master-thesis.toc
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd))
+[4] (uvod.tex) [1] (poglavlje1.tex [2]
+\CYRG \cyrl \cyra \cyrv \cyra  1.
+[3] [4]
+Overfull \hbox (2.65678pt too wide) in paragraph at lines 77--91
+\T2A/cmsrbr/m/n/12 ритма за гру-пи-са»е ([]\T2A/cmsrbr/m/it/12 group-ing ge-net
+ic al-go-rithm[]\T2A/cmsrbr/m/n/12 , GGA). У ис-том раду Falkenauer
+[5]
+
+LaTeX Warning: Citation `dyckhoff1990' on page 6 undefined on input line 113.
+
+[6]) (master-thesis.bbl [7]
+bibitemlist
+[8]) [9] [10] (master-thesis.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.28pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+ )
+(see the transcript file for additional information)<G:/Users/thegr/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><G:/Users/thegr/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><G:/Users
+/thegr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr8.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+cmsrb/cmsrbrb.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/cmsrb/cmsrbrc.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/cmsrb/cmsrbri.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/cmsrb/cmsrbrr.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><G:/Users/thegr/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><G:/Users/thegr/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/cm-super/sfrm1728.pfb><G:/Users/thegr/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on master-thesis.pdf (14 pages, 296370 bytes).
+Transcript written on master-thesis.log.
+This is BibTeX, Version 0.99e (MiKTeX 26.5)
+The top-level auxiliary file: master-thesis.aux
+The style file: plain.bst
+Database file #1: master-thesis.bib
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(master-thesis.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-06-18>
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memoir.cls
+Document Class: memoir 2025/11/04 v3.8.4b configurable book, report, article do
+cument class
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/memoir\mem12.clo)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\delarray.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+)))) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/base\shortvrb.sty))
+(matfmaster.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+*************************************
+* Local config file bblopts.cfg used
+*
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
+-english.tex)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/sr\babel
+-serbian.tex)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/invalid\
+babel-serbianc.tex)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df)
+
+Package babel Warning: The name 'serbian' with the 'ldf' mechanism is
+(babel)                currently assigned to the Latin script. For
+(babel)                the Cyrillic script, use the name 'serbianc'.
+(babel)                Reported on input line 4380.
+
+
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/babel-serbian\serbian.l
+df) (serbianc.ldf))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2aenc.def
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/base\t2aenc.dfu))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+)))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def))
+ (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(hyperref.cfg)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty)))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty)))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memhfixc.sty)
+
+******************************************************
+Stock height and width: 296.9965mm by 209.99753mm
+Top and edge trims: 0mm and 0mm
+Page height and width: 296.9965mm by 209.99753mm
+Text height and width: 223.35008mm by 149.72012mm
+Spine and edge margins: 29.99963mm and 29.99963mm
+Upper and lower margins: 40.19185mm and 33.45456mm
+Headheight and headsep: 5.60574mm and 5.0961mm
+Footskip: 10.19221mm
+Columnsep and columnseprule: 3.51456mm and 0mm
+Marginparsep and marginparwidth: 2.46019mm and 25.07925mm
+Sidecapsep and sidecapwidth: 2.46019mm and 17.57278mm
+Sidebarhsep and sidebarwidth: 2.46019mm and 17.57278mm
+Sidebarvsep and sidebartopsep: 5.0961mm and 0mm
+Sidebarheight: 192.12323mm
+Sidefoothsep and sidefootwidth: 2.46019mm and 17.57278mm
+Sidefootvsep and sidefootheight: 5.0961mm and 192.12323mm
+******************************************************
+
+) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/cmsrb\cmsrb.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/cmsrb\t2acmsrbr.fd)
+(master-thesis.aux)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty)))
+(master-thesis.out) (master-thesis.out)
+
+LaTeX Font Warning: Font shape `T2A/fos/m/n' undefined
+(Font)              using `T2A/cmr/m/n' instead on input line 52.
+
+
+LaTeX Font Warning: Font shape `T2A/fos/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `T2A/fos/m/n' in size <22> not available
+(Font)              size <20.74> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `T2A/fos/b/n' undefined
+(Font)              using `T2A/fos/m/n' instead on input line 52.
+
+[1{C:/Users/thegr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{G:/Users/th
+egr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t2a.enc} <.
+/matf.png>] [2{G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cms
+rb/cmsrbt2a.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+
+[3] (master-thesis.toc
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd))
+[4] (uvod.tex) [1] (poglavlje1.tex [2]
+\CYRG \cyrl \cyra \cyrv \cyra  1.
+[3] [4]
+Overfull \hbox (2.65678pt too wide) in paragraph at lines 77--91
+\T2A/cmsrbr/m/n/12 ритма за гру-пи-са»е ([]\T2A/cmsrbr/m/it/12 group-ing ge-net
+ic al-go-rithm[]\T2A/cmsrbr/m/n/12 , GGA). У ис-том раду Falkenauer
+[5]
+
+LaTeX Warning: Citation `dyckhoff1990' on page 6 undefined on input line 113.
+
+[6]) (master-thesis.bbl [7]
+bibitemlist
+[8]) [9] [10] (master-thesis.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.28pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)<G:/Users/thegr/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><G:/Users/thegr/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><G:/Users
+/thegr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr8.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+cmsrb/cmsrbrb.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/cmsrb/cmsrbrc.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/cmsrb/cmsrbri.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/cmsrb/cmsrbrr.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><G:/Users/thegr/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><G:/Users/thegr/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/cm-super/sfrm1728.pfb><G:/Users/thegr/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on master-thesis.pdf (14 pages, 296558 bytes).
+Transcript written on master-thesis.log.
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(master-thesis.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-06-18>
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memoir.cls
+Document Class: memoir 2025/11/04 v3.8.4b configurable book, report, article do
+cument class
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/memoir\mem12.clo)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\delarray.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+)))) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/base\shortvrb.sty))
+(matfmaster.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+*************************************
+* Local config file bblopts.cfg used
+*
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
+-english.tex)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/sr\babel
+-serbian.tex)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/invalid\
+babel-serbianc.tex)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df)
+
+Package babel Warning: The name 'serbian' with the 'ldf' mechanism is
+(babel)                currently assigned to the Latin script. For
+(babel)                the Cyrillic script, use the name 'serbianc'.
+(babel)                Reported on input line 4380.
+
+
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/babel-serbian\serbian.l
+df) (serbianc.ldf))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2aenc.def
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/base\t2aenc.dfu))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+)))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def))
+ (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(hyperref.cfg)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty)))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty)))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memhfixc.sty)
+
+******************************************************
+Stock height and width: 296.9965mm by 209.99753mm
+Top and edge trims: 0mm and 0mm
+Page height and width: 296.9965mm by 209.99753mm
+Text height and width: 223.35008mm by 149.72012mm
+Spine and edge margins: 29.99963mm and 29.99963mm
+Upper and lower margins: 40.19185mm and 33.45456mm
+Headheight and headsep: 5.60574mm and 5.0961mm
+Footskip: 10.19221mm
+Columnsep and columnseprule: 3.51456mm and 0mm
+Marginparsep and marginparwidth: 2.46019mm and 25.07925mm
+Sidecapsep and sidecapwidth: 2.46019mm and 17.57278mm
+Sidebarhsep and sidebarwidth: 2.46019mm and 17.57278mm
+Sidebarvsep and sidebartopsep: 5.0961mm and 0mm
+Sidebarheight: 192.12323mm
+Sidefoothsep and sidefootwidth: 2.46019mm and 17.57278mm
+Sidefootvsep and sidefootheight: 5.0961mm and 192.12323mm
+******************************************************
+
+) (G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/cmsrb\cmsrb.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/cmsrb\t2acmsrbr.fd)
+(master-thesis.aux)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg))
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty)))
+(master-thesis.out) (master-thesis.out)
+
+LaTeX Font Warning: Font shape `T2A/fos/m/n' undefined
+(Font)              using `T2A/cmr/m/n' instead on input line 52.
+
+
+LaTeX Font Warning: Font shape `T2A/fos/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `T2A/fos/m/n' in size <22> not available
+(Font)              size <20.74> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `T2A/fos/b/n' undefined
+(Font)              using `T2A/fos/m/n' instead on input line 52.
+
+[1{C:/Users/thegr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{G:/Users/th
+egr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t2a.enc} <.
+/matf.png>] [2{G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cms
+rb/cmsrbt2a.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+
+[3] (master-thesis.toc
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(G:\Users\thegr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd))
+[4] (uvod.tex) [1] (poglavlje1.tex [2]
+\CYRG \cyrl \cyra \cyrv \cyra  1.
+[3] [4]
+Overfull \hbox (2.65678pt too wide) in paragraph at lines 77--91
+\T2A/cmsrbr/m/n/12 ритма за гру-пи-са»е ([]\T2A/cmsrbr/m/it/12 group-ing ge-net
+ic al-go-rithm[]\T2A/cmsrbr/m/n/12 , GGA). У ис-том раду Falkenauer
+[5] [6]) (master-thesis.bbl [7]
+bibitemlist
+[8]) [9] [10] (master-thesis.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.28pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
+(see the transcript file for additional information)<G:/Users/thegr/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><G:/Users/thegr/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><G:/Users
+/thegr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr8.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+cmsrb/cmsrbrb.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/cmsrb/cmsrbrc.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/cmsrb/cmsrbri.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/cmsrb/cmsrbrr.pfb><G:/Users/thegr/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><G:/Users/thegr/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><G:/Users/thegr/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/cm-super/sfrm1728.pfb><G:/Users/thegr/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on master-thesis.pdf (14 pages, 296499 bytes).
+Transcript written on master-thesis.log.

@@ -1,0 +1,80 @@
+\begin{thebibliography}{10}
+
+\bibitem{coffman1984}
+E.~G. Coffman, M.~R. Garey, and D.~S. Johnson.
+\newblock Approximation algorithms for bin-packing --- an updated survey.
+\newblock In G.~Ausiello, M.~Lucertini, and P.~Serafini, editors, {\em
+  Algorithm Design for Computer System Design}, volume 284 of {\em
+  International Centre for Mechanical Sciences}, pages 49--106. Springer,
+  Vienna, 1984.
+
+\bibitem{delorme2016}
+Maxence Delorme, Manuel Iori, and Silvano Martello.
+\newblock Bin packing and cutting stock problems: Mathematical models and exact
+  algorithms.
+\newblock {\em European Journal of Operational Research}, 255(1):1--20, 2016.
+
+\bibitem{delorme2018}
+Maxence Delorme, Manuel Iori, and Silvano Martello.
+\newblock {BPPLIB}: a library for bin packing and cutting stock problems.
+\newblock {\em Optimization Letters}, 12(2):235--250, 2018.
+
+\bibitem{dokeroglu2014}
+Tansel Dokeroglu and Ahmet Cosar.
+\newblock Optimization of one-dimensional bin packing problem with island
+  parallel grouping genetic algorithms.
+\newblock {\em Computers \& Industrial Engineering}, 75:176--186, 2014.
+
+\bibitem{dyckhoff1990}
+Harald Dyckhoff.
+\newblock A typology of cutting and packing problems.
+\newblock {\em European Journal of Operational Research}, 44(2):145--159, 1990.
+
+\bibitem{falkenauer1996}
+Emanuel Falkenauer.
+\newblock A hybrid grouping genetic algorithm for bin packing.
+\newblock {\em Journal of Heuristics}, 2(1):5--30, 1996.
+
+\bibitem{gareyjohnson1979}
+Michael~R. Garey and David~S. Johnson.
+\newblock {\em Computers and Intractability: A Guide to the Theory of
+  {NP}-Completeness}.
+\newblock W. H. Freeman and Company, San Francisco, 1979.
+
+\bibitem{johnson1974}
+David~S. Johnson, Alan Demers, Jeffrey~D. Ullman, Michael~R. Garey, and
+  Ronald~L. Graham.
+\newblock Worst-case performance bounds for simple one-dimensional packing
+  algorithms.
+\newblock {\em SIAM Journal on Computing}, 3(4):299--325, 1974.
+
+\bibitem{martello1990}
+Silvano Martello and Paolo Toth.
+\newblock {\em Knapsack Problems: Algorithms and Computer Implementations}.
+\newblock John Wiley \& Sons, New York, 1990.
+
+\bibitem{munien2020}
+Chanalea Munien, Shiv Mahabeer, Esther Dzitiro, Sharad Singh, Siluleko Zungu,
+  and Absalom El-Shamir Ezugwu.
+\newblock Metaheuristic approaches for one-dimensional bin packing problem: A
+  comparative performance study.
+\newblock {\em IEEE Access}, 8:227438--227465, 2020.
+
+\bibitem{reeves1996}
+Colin Reeves.
+\newblock Hybrid genetic algorithms for bin-packing and related problems.
+\newblock {\em Annals of Operations Research}, 63(3):371--396, 1996.
+
+\bibitem{scholl1997}
+Armin Scholl, Robert Klein, and Christian J{\"u}rgens.
+\newblock Bison: A fast hybrid procedure for exactly solving the
+  one-dimensional bin packing problem.
+\newblock {\em Computers \& Operations Research}, 24(7):627--645, 1997.
+
+\bibitem{wascher1996}
+Gerhard W{\"a}scher and Thomas Gau.
+\newblock Heuristics for the integer one-dimensional cutting stock problem: A
+  computational study.
+\newblock {\em OR Spektrum}, 18(3):131--144, 1996.
+
+\end{thebibliography}

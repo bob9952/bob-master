@@ -1,0 +1,11 @@
+https://github.com/Pseudomanifold/bin-packing/blob/main/first-fit.cpp
+https://github.com/neatniets/binpacking-genetic-algorithm
+https://www.codeproject.com/Articles/633133/Genetic-Algorithm-for-Bin-Packing-Problem
+https://github.com/itsatefe/Metaheuristic-Algorithms/blob/main/GA-1D/GA-1D-BPP.ipynb
+https://github.com/richardf/1Dbin/blob/master/run_instances.py
+https://github.com/mdelorme2/BPPLIB
+https://github.com/Pseudomanifold/bin-packing-heuristics
+https://github.com/Pseudomanifold/bin-packing
+https://site.unibo.it/operations-research/en/research/bpplib-a-bin-packing-problem-library
+https://arxiv.org/pdf/2104.12235
+https://bastian.rieck.me/research/Note_BP.pdf

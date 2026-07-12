@@ -1,6 +1,7 @@
 import random
 import time
 from src.chromosome import Chromosome
+from src.heuristic import best_fit, counting_sort
 
 class GeneticAlgorithm:
     def __init__(self, items_dict, bin_size, pop_size=50, generations=100, crossover_prob=0.8, mutation_prob=0.1):
@@ -10,20 +11,86 @@ class GeneticAlgorithm:
         self.generations = generations
         self.pc = crossover_prob
         self.pm = mutation_prob
-        
+
         self.gene_pool = list(items_dict.keys())
         self.population = []
         self.best_chromosome = None
         self.history = {'best': [], 'avg': []}
 
+    def _ffd_order(self):
+        """Item order that reproduces First-Fit-Decreasing when decoded by
+        Chromosome's First-Fit decoder (decreasing size, ties by counting
+        sort when all sizes are integers, else a stable Python sort)."""
+        keys = self.gene_pool
+        all_ints = all(float(self.items_dict[k]).is_integer() for k in keys)
+        if all_ints and keys:
+            max_val = max(int(self.items_dict[k]) for k in keys)
+            return counting_sort(keys, self.items_dict, max_val)
+        return sorted(keys, key=lambda k: self.items_dict[k], reverse=True)
+
+    def _bfd_order(self, ffd_order):
+        """Item order obtained by flattening the bins that Best-Fit-Decreasing
+        would build (item-by-item, bin-by-bin). Decoding this permutation with
+        the (First-Fit) chromosome decoder does not exactly reproduce BFD's bin
+        count, but it injects BFD's grouping structure as a distinct, high
+        quality seed individual for extra population diversity."""
+        bfd_bins = best_fit(ffd_order, self.items_dict, self.bin_size)
+        order = []
+        for b in bfd_bins:
+            order.extend(item_id for item_id, _size in b['items'])
+        return order
+
+    def _seed_orders(self):
+        """Heuristic orderings injected into gen-0 so the GA's First-Fit
+        decoder reproduces (at least) FF's and FFD's bin counts immediately.
+        Falkenauer's triplet ('t*') instances are a well known adversarial
+        case for FFD/BFD (sorting by size destroys the triplet grouping that
+        makes plain, unsorted First-Fit near-optimal) -- so we seed the
+        *natural* file order (== plain FF) as well as FFD/BFD, rather than
+        FFD alone, to guarantee the GA is never worse than the best of FF,
+        FFD and the BFD-grouping seed.
+        """
+        seeds = []
+        seen = set()
+
+        def add(order):
+            key = tuple(order)
+            if order and key not in seen:
+                seen.add(key)
+                seeds.append(order)
+
+        # 1) Natural / file order == plain First-Fit when decoded by the GA.
+        add(self.gene_pool.copy())
+
+        # 2) First-Fit-Decreasing order.
+        ffd_order = self._ffd_order()
+        add(ffd_order)
+
+        # 3) Best-Fit-Decreasing grouping order (diversity seed).
+        add(self._bfd_order(ffd_order))
+
+        return seeds
+
     def initialize_population(self):
         self.population = []
-        for _ in range(self.pop_size):
+
+        # --- Seeding: inject heuristic solutions (FF, FFD, BFD-grouping) ---
+        # so the initial population's best individual is never worse than
+        # those heuristics. Combined with elitism (see run()), this guarantees
+        # the GA's final result is never worse than min(FF, FFD, BFD-seed).
+        for order in self._seed_orders():
+            if len(self.population) >= self.pop_size:
+                break
+            chrom = Chromosome(order.copy(), self.items_dict, self.bin_size)
+            self.population.append(chrom)
+
+        # --- Fill the rest of the population with random permutations ---
+        while len(self.population) < self.pop_size:
             value = self.gene_pool.copy()
             random.shuffle(value)
             chrom = Chromosome(value, self.items_dict, self.bin_size)
             self.population.append(chrom)
-        
+
         # Initial Best
         self.best_chromosome = min(self.population, key=lambda x: x.fitness)
 

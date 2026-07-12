@@ -2,7 +2,7 @@
 
 ## 1. Project Goal
 Implement a **Permutation-based Genetic Algorithm (GA)** using the **First Fit (FF)** heuristic to solve the One-Dimensional Bin Packing Problem (1D-BPP).
-The solution will be tested on Falkenauer's benchmarks (`binpack1.txt` to `binpack8.txt`).
+The solution will be tested on Falkenauer's benchmarks (`binpack1.txt` to `binpack8.txt`), as well as the Scholl, Wäscher, and Schoenfield/Hard28 instance sets — all sourced from BPPLIB (Delorme, Iori & Martello, 2018), which aggregates and redistributes these benchmarks with known optimal/best solutions.
 
 ## 2. Data Parsing Strategy
 The input files (e.g., `binpack1.txt`) contain multiple problem instances in a specific format.
@@ -72,4 +72,9 @@ project/
 1.  Implement `parser.py` to correctly read the 20 instances from `binpack1.txt`.
 2.  Refine the `Chromosome` class to use the First Fit logic (done in notebook, can be moved to script).
 3.  Run experiments on `u120` (Uniform) and `t60` (Triplets).
+
+## 7. Data Source & References
+- Falkenauer, E. (1996). *A hybrid grouping genetic algorithm for bin packing*. Journal of Heuristics, 2(1), 5–30.
+- Scholl, A., Klein, R., & Jürgens, C. (1997). *BISON: A fast hybrid procedure for exactly solving the one-dimensional bin packing problem*. Computers & Operations Research, 24(7), 627–645.
+- Delorme, M., Iori, M., & Martello, S. (2018). *BPPLIB: A library for bin packing and cutting stock problems*. Optimization Letters, 12(2), 235–250. If referring to material taken from BPPLIB (benchmark instances, solutions), this must be cited per the library's own citation requirement.
 
