@@ -126,7 +126,9 @@
   \fi
   
   % sans-serif font za naslovne strane
-  \newcommand{\headersans}{\fontfamily{fos}\selectfont}
+  % \newcommand{\headersans}{\fontfamily{fos}\selectfont} 17.09.2026 Subotic 
+  \RequirePackage{opensans}
+  \newcommand{\headersans}{\fontfamily{opensans-TLF}\selectfont}
 \fi
 
 %%%% pomoćna komanda \size{} podešava veličinu fonta (veličina se zadaje u pt, npr. {\size{10pt} ...})
